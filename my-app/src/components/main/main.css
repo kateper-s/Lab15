@@ -1,0 +1,11 @@
+.main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    min-height: calc(100vh - 140px);
+    display: grid;
+    grid-template-areas: "section article aside";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 0;
+    background-color: #FFFBF5;
+}

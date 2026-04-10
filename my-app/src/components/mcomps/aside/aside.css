@@ -1,0 +1,23 @@
+.aside {
+    grid-area: aside;
+    background: linear-gradient(180deg, #FFE6CC 0%, #FFD699 100%);
+    padding: 40px 30px;
+    box-sizing: border-box;
+    border-left: 2px solid #FFE6CC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-y: auto;
+    max-height: calc(100vh - 140px);
+}
+
+.aside p {
+    margin: 0;
+    color: #654321;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+}
